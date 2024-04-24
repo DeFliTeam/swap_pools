@@ -1,0 +1,129 @@
+.Commonloader {
+  @apply rounded-sm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // overflow: hidden;
+  width: 100%;
+}
+
+.barwave {
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 60px;
+    width: 60px;
+    animation: spin 1.5s linear infinite;
+    -webkit-animation: spin 1.5s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+.barwaveDate {
+  width: 100%;
+  height: 17vh;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 60px;
+    width: 60px;
+    animation: spin 1.5s linear infinite;
+    -webkit-animation: spin 1.5s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.buttonload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #40a1dc;
+  border: 1px solid #3b94cb;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #3b94cb;
+  }
+  p {
+    width: 20%;
+    text-align: center;
+  }
+  .loader {
+    margin-left: -12px;
+    margin-right: 8px;
+  }
+}
+
+.buttonload1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 40px;
+  background-color: #40a1dc;
+  border: 1px solid #3b94cb;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #3b94cb;
+  }
+  p {
+    width: 20%;
+    text-align: center;
+  }
+  .loader1 {
+    margin-left: -12px;
+    margin-right: 8px;
+  }
+}

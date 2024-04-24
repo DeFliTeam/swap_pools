@@ -1,0 +1,34 @@
+.walletGenerate{
+  @apply w-full flex flex-col;
+  .btnSection{
+    @apply w-full flex gap-x-1 gap-1 flex-wrap mt-5;
+  button{
+    @apply px-5 py-3 outline-none text-white text-lg rounded-lg border box-border border-none hover:text-white;
+    background-image: linear-gradient(to right, #ce6cf7, #5860cb);
+    span{
+      @apply text-white;
+    }
+  }
+  input{
+    @apply border border-[#ce6cf7] outline-none rounded-md px-4;
+  }
+}
+.headerSection{
+      @apply w-full;
+      .heading{
+        @apply w-full text-2xl font-bold mt-10 text-[#5E17EB] text-center;
+      }
+    }
+  .infoHeading{
+    @apply text-lg mt-5;
+    h2{
+      @apply text-[#5817EB] font-bold
+    }
+    p{
+      label{
+      @apply text-[#5817EB] font-bold;
+
+      }
+    }
+  }
+}

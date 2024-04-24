@@ -1,0 +1,49 @@
+.wrapper {
+  @apply w-screen min-h-[150vh] fixed overflow-auto flex flex-col items-center bg-white top-0 p-10 z-[1000] right-0;
+  .closeRow {
+    @apply w-full flex justify-end;
+    .closeIcon {
+      @apply text-4xl cursor-pointer;
+      color: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+    }
+  }
+  .linksContainer {
+    @apply w-full h-full flex flex-col items-center justify-center;
+    .links {
+      @apply w-full h-full flex flex-col justify-center items-center max-w-[500px] mb-56;
+      .inactive {
+        @apply w-full text-lg text-black capitalize text-center px-4 py-2 border-b-2 border-gray-500;
+      }
+      .active {
+        @apply w-full text-lg text-[#bd6af1] uppercase text-center border-b-2 border-[#bd6af1] px-4 py-2;
+      }
+      .button {
+        @apply w-full flex items-center justify-center gap-3
+        p-3 mt-10 rounded-md;
+
+        background-image: linear-gradient(
+          to right,
+          #ce6cf7,
+          #5860cb
+        ) !important;
+
+        span {
+          @apply text-lg;
+        }
+      }
+    }
+  }
+}
+:global(.dark) .wrapper {
+  background-color: rgb(0, 0, 0);
+  z-index: 1000 !important;
+  .linksContainer {
+    .active {
+      color: #ce6cf7 !important;
+    }
+  }
+}
+
+:global(.dark) .closeIcon {
+  @apply text-4xl text-white;
+}

@@ -1,0 +1,64 @@
+.boxModal {
+  display: none;
+  padding: 3.5rem;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  position: fixed;
+  height: 300px;
+  bottom: auto;
+  background: linear-gradient(111.68deg, #fff, #fafafa);
+  bottom: 0%;
+  z-index: 9999;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  animation: transformModal 0.5s ease-in-out;
+
+  @media screen and (max-width: 525px) {
+    display: flex;
+  }
+
+  @keyframes transformModal {
+    0% {
+      transform: translateY(100%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  .notetxt {
+    color: black;
+    font-size: 12px;
+    font-family: Poppins, sans-serif !important;
+    font-weight: 500;
+  }
+  .walletbox {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
+    .boxImg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.8rem;
+      .img {
+        width: 50px;
+        height: 50px;
+      }
+      .txt {
+        color: black;
+        white-space: nowrap;
+        font-size: 10px;
+        font-family: Poppins, sans-serif !important;
+        font-weight: 500;
+      }
+    }
+  }
+}

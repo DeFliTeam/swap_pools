@@ -1,0 +1,20 @@
+.bg {
+  background: url("./Components/Assests/launch.png");
+  // width: 100vw !important;
+  min-height: 100vh !important;
+  background-attachment: fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+
+  .filterInput1 {
+    @apply bg-[#E5E7E9] dark:bg-[#112533] rounded-lg h-9 text-gray-900 text-sm block  pl-10 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white outline-none hover:border-none hover:outline-none focus:border-none active:outline-none ring-0 ring-transparent;
+  }
+  button {
+    @apply p-3 py-2 rounded-lg ml-3 text-white;
+    background-image: linear-gradient(to right, #5860cb, #ce6cf7) !important;
+  }
+}

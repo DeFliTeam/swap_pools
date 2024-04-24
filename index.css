@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.uYscM {
+  z-index: 2000 !important;
+}
+.web3modal-modal-lightbox {
+  z-index: 2000 !important;
+}
+
+.nav-button {
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+}
+
+.font-normal {
+  font-weight: 400 !important;
+}
+.bgGrad {
+  background-image: linear-gradient(
+    to bottom,
+    #a39f9f 60%,
+    #1c2024 40%
+  ) !important;
+}
+.activeLink {
+  color: #ce6cf7 !important;
+}
+
+.portfoliotable_wrapper__cZePA {
+  border-bottom: 1px solid #707070 !important;
+}
+
+abbr:where([title]) {
+  text-decoration: none !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575 !important;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar * :after:hover {
+  background-color: transparent !important;
+}
+@media only screen and (max-width: 600px) {
+  .react-calendar {
+    width: 100% !important;
+  }
+}
+p {
+  margin-bottom: 0rem !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0em !important;
+}
+
+.apexcharts-yaxis-texts-g {
+  display: none;
+}
+
+.apexcharts-xaxis-texts-g {
+  display: none;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+.apexcharts-grid,
+[class="apexcharts-tooltip apexcharts-theme-light apexcharts-active"] {
+  display: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield !important;
+}

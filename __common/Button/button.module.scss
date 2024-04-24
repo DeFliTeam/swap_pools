@@ -1,0 +1,7 @@
+.secondary {
+  @apply min-w-[80px] dark:bg-[#1C3446] border border-[#CE6CF7] text-sm dark:text-white text-[#4594CD] bg-[white] px-3 py-2 rounded;
+}
+.primary {
+  @apply min-w-[80px] text-center text-sm text-white px-3 py-2 rounded;
+  background-image: linear-gradient(to right, #ce6cf7, #5860cb) !important;
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a90e998.css",
+    "main.js": "/static/js/main.b3d710f0.js",
+    "static/css/31.4b402ccc.chunk.css": "/static/css/31.4b402ccc.chunk.css",
+    "static/js/31.5921641b.chunk.js": "/static/js/31.5921641b.chunk.js",
+    "static/js/897.901a8d92.chunk.js": "/static/js/897.901a8d92.chunk.js",
+    "static/media/rocket.svg": "/static/media/rocket.1776fac3a586c03239cf911bae3bb671.svg",
+    "static/media/metamaskMobileView.svg": "/static/media/metamaskMobileView.30835376e060503bd74b93c4156bb6f0.svg",
+    "static/media/walletconnect.svg": "/static/media/walletconnect.c7af16bbfb5fc9c41dd7d4970d4efa5f.svg",
+    "index.html": "/index.html",
+    "static/media/cart.svg": "/static/media/cart.522963efb65006b73a857e3b27f995c0.svg",
+    "main.1a90e998.css.map": "/static/css/main.1a90e998.css.map",
+    "main.b3d710f0.js.map": "/static/js/main.b3d710f0.js.map",
+    "31.4b402ccc.chunk.css.map": "/static/css/31.4b402ccc.chunk.css.map",
+    "31.5921641b.chunk.js.map": "/static/js/31.5921641b.chunk.js.map",
+    "897.901a8d92.chunk.js.map": "/static/js/897.901a8d92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a90e998.css",
+    "static/js/main.b3d710f0.js"
+  ]
+}
